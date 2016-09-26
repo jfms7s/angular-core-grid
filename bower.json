@@ -1,0 +1,25 @@
+{
+  "name": "core-grid",
+  "main": [
+    "dist/core-grid.js",
+    "dist/core-grid.css"
+  ],
+  "author": "João Silva",
+  "description": "Contains Grid Functionalities",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jfms7s/core-grid",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jfms7s/core-grid"
+  },
+  "dependencies": {
+    "angular": "~1.5.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5.8",
+    "jquery": "^3.1.0",
+    "angular-animate": "^1.5.8"
+  }
+}

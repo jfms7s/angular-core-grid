@@ -1,0 +1,12 @@
+build:
+  - 'clean'
+  - 'mkdir'
+  - 'concat'
+  - 'babel'
+  - 'ngAnnotate'
+  - 'uglify'
+  - 'copy'
+  - 'cssmin'
+  - 'ngdocs'
+test:
+  - 'karma:unit'
